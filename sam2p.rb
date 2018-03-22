@@ -17,8 +17,9 @@ class Sam2p < Formula
   end
 
   test do
-    system "#{bin}/sam2p", "examples/ptsbanner_zip.job"
-    system "#{bin}/sam2p", "examples/pts2.pbm", "try.eps"
+    # system "#{bin}/sam2p", "ptsbanner_zip.job"
+    system "curl", "-L", "-o", "pts2.pbm", "https://github.com/pts/sam2p/raw/master/examples/pts2.pbm"
+    system "#{bin}/sam2p", "pts2.pbm", "try.eps"
     assert_predicate "try.eps", :exist?
   end
 end
