@@ -23,6 +23,6 @@ class Pdfsizeopt < Formula
   test do
     system "curl", "-L", "-o", "deptest.pdf", "https://github.com/pts/pdfsizeopt/raw/master/deptest/deptest.pdf"
     system "#{bin}/pdfsizeopt", "deptest.pdf"
-    assert_predicate "deptest.pso.pdf", :exist?
+    assert_predicate testpath/"deptest.pso.pdf", :exist?
   end
 end

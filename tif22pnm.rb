@@ -16,6 +16,8 @@ class Tif22pnm < Formula
   end
 
   test do
-    system "#{bin}/tif22pnm", "-verbose"
+    system "curl", "-L", "-o", "sample.tiff", "https://www.fileformat.info/format/tiff/sample/3794038f08df403bb446a97f897c578d/download"
+    system "#{bin}/tif22pnm", "sample.tiff", "sample.pnm", "-headerdump"
+    assert_predicate testpath/"sample.pnm", :exist?
   end
 end

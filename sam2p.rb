@@ -20,6 +20,6 @@ class Sam2p < Formula
     # system "#{bin}/sam2p", "ptsbanner_zip.job"
     system "curl", "-L", "-o", "pts2.pbm", "https://github.com/pts/sam2p/raw/master/examples/pts2.pbm"
     system "#{bin}/sam2p", "pts2.pbm", "try.eps"
-    assert_predicate "try.eps", :exist?
+    assert_predicate testpath/"try.eps", :exist?
   end
 end
