@@ -1,16 +1,15 @@
-Homebrew formulae for some software on https://github.com/pts (macOS only)
-==========================================================================
+Homebrew formulae for some [@pts software](https://github.com/pts)
+==================================================================
 
-Homebrew (https://brew.sh/) is a package manager for macOS, allowing to easily install, update and uninstall command-line software. If you do not have it already, you can install it by pasting this line at a Terminal prompt:
+[Homebrew](https://brew.sh/) is a package manager for **macOS**, allowing to easily install, update and uninstall command-line software. If you do not have it already, you can install it by pasting this line at a Terminal prompt:
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-With Homebrew installed, you can install `pdfsizeopt` (as well as other utilities) from source in one simple command.
+With Homebrew installed, you can install [pdfsizeopt](#pdfsizeopt) (as well as other utilities) from source in one simple command.
 
 
 
-pdfsizeopt (https://github.com/pts/pdfsizeopt)
-----------
+## [pdfsizeopt](https://github.com/pts/pdfsizeopt)
 
 ### Installation
 
@@ -31,8 +30,7 @@ Homebrew will install `pdfsizeopt` with all its dependencies (Ghostscript, `tif2
     
     
     
-sam2p (https://github.com/pts/sam2p)
------
+## [sam2p](https://github.com/pts/sam2p)
 
 To install `sam2p` directly (it is already installed as a depedency of `pdfsizeopt` if you have installed it), run:
 
@@ -40,8 +38,7 @@ To install `sam2p` directly (it is already installed as a depedency of `pdfsizeo
     
     
     
-tif22pnm (https://github.com/pts/tif22pnm)
---------
+## [tif22pnm](https://github.com/pts/tif22pnm)
 
 To install `tif22pnm` directly (it is also installed as a dependency of `pdfsizeopt`):
 
