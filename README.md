@@ -46,5 +46,4 @@ tif22pnm (https://github.com/pts/tif22pnm)
 To install `tif22pnm` directly (it is also installed as a dependency of `pdfsizeopt`):
 
     brew install pts/utils/tiff22pnm
-    
-__END__
+
