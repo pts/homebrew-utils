@@ -13,14 +13,11 @@ With Homebrew installed, you can install [pdfsizeopt](#pdfsizeopt) (as well as o
 
 ### Installation
 
-To install the last official macOS release of `pdfsizeopt`, run the following command in your Terminal:
+To install the last version of `pdfsizeopt`, run the following command in your Terminal:
 
-    brew install pts/utils/pdfsizeopt
+    brew install --HEAD pts/utils/pdfsizeopt
     
-To install a development version ("bleeding edge") from the current state of the Github repository:
 
-    brew install pts/utils/pdfsizeopt --HEAD
-   
    
 ### Usage
 
